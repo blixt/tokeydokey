@@ -5,12 +5,14 @@ Create random identifiers using a fixed number of non-overlapping LLM tokens.
 ## Quick start
 
 ```bash
-uv sync
+uv add tokeydokey
 uv run python - <<'PY'
 import tokeydokey
 
 print(tokeydokey.generate())
+# e.g. "cache.Enable-Thread.sort" (4 by default)
 print(tokeydokey.generate(n=5))
+# e.g. "db.Connection-Reset.queue.ready"
 PY
 ```
 
@@ -21,7 +23,7 @@ uv sync --group dev
 uv run pytest
 ```
 
-## Regenerate pools
+### Regenerate pools
 
 ```bash
 uv run python scripts/generate_pools.py

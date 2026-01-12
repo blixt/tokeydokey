@@ -17,5 +17,5 @@ Examples:
 
 from ._generator import combinations, entropy_bits, generate, pool_size
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __all__ = ["generate", "pool_size", "combinations", "entropy_bits"]
