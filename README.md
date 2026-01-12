@@ -14,6 +14,13 @@ print(tokeydokey.generate(n=5))
 PY
 ```
 
+## Development
+
+```bash
+uv sync --group dev
+uv run pytest
+```
+
 ## Regenerate pools
 
 ```bash
