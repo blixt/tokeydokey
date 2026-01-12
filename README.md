@@ -50,6 +50,11 @@ Note: For ~128 bits of entropy, base64 needs 22 chars (132 bits) which average ~
 - Dot-only: next pool 4,410, 100% compatible.
 - Base62: around 8.6 bits per token in o200k_base; token count varies.
 
+## Attribution
+
+Token pool data in `src/tokeydokey/_pools.py` is derived from the tiktoken
+vocabulary. See `NOTICE` for details.
+
 ## License
 
 MIT
